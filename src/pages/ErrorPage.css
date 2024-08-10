@@ -1,0 +1,74 @@
+.notfound-main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.notfound-card{
+    background-color: #161d29;
+    width: 50%;
+    height: 70%;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    border-radius: 10px;
+    box-Shadow: 0 -1px 0 rgba(255, 255, 255, 0.18) inset;
+}
+
+.error-main-text{
+    font-size: 200px;
+    font-weight: bold;
+    color: transparent;
+    background: url('https://w0.peakpx.com/wallpaper/43/8/HD-wallpaper-purple-night-sky-purple-sky-night-nature.jpg') no-repeat center center;
+    -webkit-background-clip: text;
+    text-align: center;
+}
+
+.error{
+    font-size: 20px;
+    color: #f1f2ff;
+    text-align: center;
+    font-weight: bold;
+    font-family: "Roboto";
+    letter-spacing: 1px;
+}
+
+.error-text{
+    font-size: 10px;
+    color: #afb2bf;
+    text-align: center;
+    font-family: "Roboto";
+    
+}
+
+.gotohome-btn{
+    width: 40%;
+    height: 10%;
+    background-color: #000814;
+    color: #f1f2ff;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: large;
+    text-shadow: black 2px 2px;
+    transition: background-color 0.2s ease-in-out;
+    cursor: pointer;
+    box-Shadow: 0 -1px 0 rgba(255, 255, 255, 0.18) inset;
+}
+
+.gotohome-btn:hover{
+    background: url('https://w0.peakpx.com/wallpaper/43/8/HD-wallpaper-purple-night-sky-purple-sky-night-nature.jpg') no-repeat center center;
+    color: #ffffff;
+    text-shadow: black 1px 1px;
+    transition: background-color 0.2s ease-in-out;
+    transform: scale(1.02);
+    box-Shadow: 0 -1px 0 rgba(255, 255, 255, 0.18) inset;
+}

@@ -7,6 +7,7 @@ import SignUp from './pages/SignUp';
 import Dashboard from './pages/Dashboard';
 import { useState } from 'react';
 import PrivateRoute from './components/PrivateRoute';
+import ErrorPage from './pages/ErrorPage';
 
 function App() {
 
@@ -27,6 +28,7 @@ function App() {
             <Dashboard /> 
           </PrivateRoute>
         } />
+        <Route path='*' element={<ErrorPage/>} />
        
       </Routes>
     </div>
